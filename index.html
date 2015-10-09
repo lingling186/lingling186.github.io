@@ -74,76 +74,18 @@
 
    
     
-    <article class="post-expand photo" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2015/10/08/Gallery-Test/" title="Gallery Test" itemprop="url">Gallery Test</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Lingjie Zhang" target="_blank" itemprop="author">Lingjie Zhang</a>
-		
-  <p class="article-time">
-    <time datetime="2015-10-09T02:17:46.000Z" itemprop="datePublished"> Published 2015-10-08</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Add images into blog.<br><img src="http://i.minus.com/iedpg90Y0exFS.jpg" alt="Image"></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/Hexo/">Hexo</a><a href="/tags/Imgur/">Imgur</a><a href="/tags/Markdown/">Markdown</a>
-  </div>
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2015/10/08/Gallery-Test/#disqus_thread" class="comments-count-link">Comments</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
     <article class="post-expand post" itemprop="articleBody"> 
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/10/08/Create-a-blog-with-Hexo-on-Github/" title="Create a blog with Hexo on Github" itemprop="url">Create a blog with Hexo on Github</a>
+      <a href="/2015/10/09/Hello-Hexo/" title="Hello Hexo" itemprop="url">Hello Hexo</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="Lingjie Zhang" target="_blank" itemprop="author">Lingjie Zhang</a>
 		
   <p class="article-time">
-    <time datetime="2015-10-08T04:36:30.000Z" itemprop="datePublished"> Published 2015-10-08</time>
+    <time datetime="2015-10-09T07:37:26.000Z" itemprop="datePublished"> Published 2015-10-09</time>
     
   </p>
 </header>
@@ -164,25 +106,29 @@
 <p>cURL:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl http<span class="variable">s:</span>//raw.github.<span class="keyword">com</span>/creationix/nvm/master/install.<span class="keyword">sh</span> | <span class="keyword">sh</span></span><br></pre></td></tr></table></figure></p>
 <p>Wget:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wget -qO- http<span class="variable">s:</span>//raw.github.<span class="keyword">com</span>/creationix/nvm/master/install.<span class="keyword">sh</span> | <span class="keyword">sh</span></span><br></pre></td></tr></table></figure></p>
 <p>Once nvm is installed, restart the terminal and run the following command to install Node.js.<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ nvm <span class="keyword">install</span> <span class="number">0.12</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="Install_Hexo">Install Hexo</h2><p>Once all the requirements are installed, you can install Hexo with npm.<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo-cli</span></span><br></pre></td></tr></table></figure></p>
-<p><a href="https://hexo.io/docs/index.html" target="_blank" rel="external">More Information</a></p>
-<h2 id="Setup_Hexo">Setup Hexo</h2><p>Once Hexo is installed, run the following commands to initialise Hexo in the target <folder>.<br>Here we create a folder username.github.io:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init username<span class="class">.github</span><span class="class">.com</span></span><br><span class="line">$ cd username<span class="class">.github</span><span class="class">.com</span></span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure></folder></p>
+<h2 id="Install_Hexo">Install Hexo</h2><p>Once all the requirements are installed, you can install Hexo with npm.</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo-cli</span></span><br></pre></td></tr></table></figure>
+<p>##Setup Hexo<br>Once Hexo is installed, run the following commands to initialise Hexo in the target <folder>.<br>Here we create a folder username.github.io:</folder></p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init username<span class="class">.github</span><span class="class">.com</span></span><br><span class="line">$ cd username<span class="class">.github</span><span class="class">.com</span></span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 <p>Once initialised, here’s what your project folder will look like:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml  </span><br><span class="line">├── package.json </span><br><span class="line">├── scaffolds</span><br><span class="line">├── scripts</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-<p>Next, we need to configure a couple of things so open up the <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">config file</a> for this project: </p>
-<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>vim _config.yml</span><br></pre></td></tr></table></figure>
-<p>Some items you will want to immediately change are: Title, Subtitle, Url, Author.<br>To make Github deployments work with hexo deploy you should make sure that the # Deployment section looks something like:</p>
-<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">    <span class="attribute">repository</span>: <span class="attribute">https</span>:<span class="comment">//github.com/username/username.github.io.git</span></span><br><span class="line">      <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
-<p>Extensions can be found in following links:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment"># Plugins: http://hexo.io/plugins/ e.g. disqus comment system</span></span><br><span class="line"><span class="comment"># Themes: http://hexo.io/themes/</span></span><br></pre></td></tr></table></figure></p>
-<p>A tip : for .yml file, be careful with the format. There is space after \”:\”. </p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml  </span><br><span class="line">├── package.json </span><br><span class="line">├── scaffolds</span><br><span class="line">├── scripts</span><br><span class="line">├── source</span><br><span class="line"><span class="string">|   ├── _drafts</span></span><br><span class="line"><span class="string">|   └── _posts</span></span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+<p>Next, we need to configure a couple of things so open up the <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">config file</a> for this project:<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>vim _config.yml</span><br></pre></td></tr></table></figure></p>
+<p>Some items you should immediately change are: Title, Subtitle, Url, Author.<br>To make Github deployments work with hexo deploy you should make sure that the # Deployment section looks something like:</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repository</span>: <span class="attribute">https</span>:<span class="comment">//github.com/username/username.github.io.git</span></span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure>
+<p>Extensions can be found in following links:</p>
+<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Extensions</span></span><br><span class="line"><span class="preprocessor"># Plugins: http://hexo.io/plugins/ e.g. disqus comment system</span></span><br><span class="line"><span class="preprocessor"># Themes: http://hexo.io/themes/</span></span><br></pre></td></tr></table></figure>
+<p>A tip : for .yml file, be careful with the format. There is space after “:”. </p>
 <h2 id="Setup_Github">Setup Github</h2><p>Github provides hosting for static websites via <a href="https://pages.github.com/" target="_blank" rel="external">Github Pages</a>. As long as you have an index.html in the root of your repo, Github will serve up the static files for you.</p>
 <h3 id="Create_a_new_repository">Create a new repository</h3><p>Head over to GitHub and create a <a href="https://help.github.com/articles/creating-a-new-repository/" target="_blank" rel="external">new repository</a> named username.github.io, where username is your username on GitHub.</p>
-<p>Once the repo has been created you can setup the deployment process in hexo with:<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo setup_deploy</span><br></pre></td></tr></table></figure></p>
-<h3 id="Generate_some_content">Generate some content</h3><p>Now that everything is assembled in place, it is time to flesh out the blog. To generate a new post in Hexo simply issue:<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &lt;title&gt; <span class="hexcolor">#add</span> <span class="string">''</span> <span class="keyword">for</span> title, <span class="keyword">if</span> the title contains space</span><br></pre></td></tr></table></figure></p>
+<p>Once the repo has been created you can setup the deployment process in hexo with:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo setup_deploy</span><br></pre></td></tr></table></figure></p>
+<h3 id="Generate_some_content">Generate some content</h3><p>Now that everything is assembled in place, it is time to flesh out the blog. To generate a new post in Hexo simply issue:</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &lt;title&gt; <span class="hexcolor">#add</span> <span class="string">''</span> <span class="keyword">for</span> title, <span class="keyword">if</span> the title contains space</span><br></pre></td></tr></table></figure>
 <p>That command will create a new post in /source/_post/title.md. More information about the article struction can be found <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">here</a> and <a href="https://en.support.wordpress.com/markdown-quick-reference/" target="_blank" rel="external">quick Markdown</a>.</p>
-<p>As all your content has been written in markdown, you need to generate the HTML files for your site. Hexo has a generator that does this for you. Inside your Hexo website project, run the command:<br><figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo generate</span><br><span class="line"><span class="variable">$ </span>hexo depoly</span><br></pre></td></tr></table></figure></p>
+<p>As all your content has been written in markdown, you need to generate the HTML files for your site. Hexo has a generator that does this for you. Inside your Hexo website project, run the command:</p>
+<figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo generate</span><br><span class="line"><span class="variable">$ </span>hexo depoly</span><br></pre></td></tr></table></figure>
 <p>Now your new blog will be live at <a href="https://username.github.io" target="_blank" rel="external">https://username.github.io</a></p>
-<p>If you want debug on local, then use the following command:<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">INFO Hexo is running <span class="keyword">at</span> <span class="keyword">http</span>://<span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span>:<span class="number">4000</span>/. Press Ctrl+C <span class="built_in">to</span> <span class="built_in">stop</span>.</span><br></pre></td></tr></table></figure></p>
+<p>If you want debug on local, then use the following command:</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br><span class="line">INFO Hexo is running <span class="keyword">at</span> <span class="keyword">http</span>://<span class="number">0.0</span><span class="number">.0</span><span class="number">.0</span>:<span class="number">4000</span>/. Press Ctrl+C <span class="built_in">to</span> <span class="built_in">stop</span>.</span><br></pre></td></tr></table></figure>
 <p>More information about the <a href="https://hexo.io/docs/commands.html" target="_blank" rel="external">hexo command</a>.</p>
 
         
@@ -208,68 +154,7 @@
 <div class="comments-count">
 	
 	  	<span></span>
-		<a href="/2015/10/08/Create-a-blog-with-Hexo-on-Github/#disqus_thread" class="comments-count-link">Comments</a>
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2015/10/05/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Lingjie Zhang" target="_blank" itemprop="author">Lingjie Zhang</a>
-		
-  <p class="article-time">
-    <time datetime="2015-10-05T05:15:20.000Z" itemprop="datePublished"> Published 2015-10-05</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-	  	<span></span>
-		<a href="/2015/10/05/hello-world/#disqus_thread" class="comments-count-link">Comments</a>
+		<a href="/2015/10/09/Hello-Hexo/#disqus_thread" class="comments-count-link">Comments</a>
 	
 </div>
 
@@ -302,25 +187,11 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>2</sup></a></li>
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
 			
 		
 			
 				<li><a href="/tags/Github/" title="Github">Github<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Imgur/" title="Imgur">Imgur<sup>1</sup></a></li>
-			
-		
-			
-		
-			
-		
 			
 		
 		</ul>
@@ -331,7 +202,7 @@
   <div class="tagcloudlist">
     <p class="asidetitle">Tag Cloud</p>
     <div class="tagcloudlist clearfix">
-       <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Imgur/" style="font-size: 10px;">Imgur</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
+       <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
     </div>
   </div>
 
